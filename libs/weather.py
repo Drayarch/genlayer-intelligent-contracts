@@ -122,6 +122,6 @@ def get_weather_emoji(condition: str) -> str:
         str: Emoji representation
         
     Example:
-        emoji = get_weather_emoji("Rain")  # Returns "🌧️ Rainy"
+        emoji = get_weather_emoji("Rain")  # Returns "Rainy"
     """
-    return WEATHER_CONDITIONS.get(condition, f"🌍 {condition}")
+    return WEATHER_CONDITIONS.get(condition, f"{condition}")
